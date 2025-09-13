@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+td {
+    padding: 10px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+legend h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 100px; /* Fixed width for labels */
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="text"], input[type="password"] {
+    width: calc(100% - 110px); /* Adjust width to align with label */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+    margin-left: 100px; /* Align error messages with input fields */
+}
+
+/* Additional Styling for Admin Theme */
+fieldset {
+    background-color: #e8f5e9; /* Light green background */
+}
+
+input[type="submit"][name="signup"] {
+    background-color: #2196F3; /* Blue color for Signup button */
+}
+
+input[type="submit"][name="signup"]:hover {
+    background-color: #1e88e5; /* Darker blue on hover */
+}

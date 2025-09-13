@@ -1,0 +1,71 @@
+/* Center the form */
+.container {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border: 2px solid black;
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+/* Center the heading */
+h2 {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+/* Style input fields, select, and textarea */
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Adjust textarea width to match input fields */
+textarea {
+  width: 96%;
+}
+
+/* Style the checkbox container */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+/* Style the buttons */
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: rgb(0, 122, 204);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* Hover effect for buttons */
+button:hover {
+  background-color: rgb(146, 0, 186);
+}
+
+/* Style for the success/error message */
+#message {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: red;
+}

@@ -1,0 +1,35 @@
+section {
+    margin: 20px;
+    display: flex;
+}
+
+#job {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+#form {
+    flex: 1;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    section {
+        flex-direction: column;
+    }
+    #job,
+    #form {
+        margin-right: 0;
+    }
+}

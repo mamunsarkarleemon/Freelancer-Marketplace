@@ -1,0 +1,121 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #e5f1e5e6;
+    padding: 40px;
+}
+
+/* Form Container */
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: rgb(232, 244, 237);
+    border: 1px solid #f7f7f8;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+h2 {
+    text-align: center;
+    color: #5a3d7d;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    margin: 20px 0;
+}
+
+td {
+    padding: 20px;
+   
+}
+
+/* Input Fields */
+input, select, textarea {
+    width: 100%;
+    padding: 4px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Checkbox Container */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.checkbox-container input {
+    margin-right: 10px;
+}
+
+/* Button Styling */
+button {
+    width: 50%;
+    padding: 10px;
+    background-color: #077f91;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block; /* Ensure the button is a block element */
+    margin: 02px auto; /* Center the button horizontally */
+}
+.back{
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #075273;
+}
+
+/* Links */
+
+a {
+    color: #6a0dad;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Error Message */
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        width: 60%;
+        padding: 12px;
+    }
+
+    table {
+        margin: 10px 0;
+    }
+
+    button {
+        padding: 10px;
+    }
+}
